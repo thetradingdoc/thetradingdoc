@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/profile-banner.svg" alt=" Otis Richard Jr MD — AI product engineer" width="100%"/></p>
+<p align="center"><img src="assets/profile-banner.svg" alt="AI Engineer — Solution Design" width="100%"/></p>
 
 <p align="center">
 <a href="#01--moneyfinder">🏆 MoneyFinder</a> &nbsp;·&nbsp;
@@ -21,9 +21,9 @@
 <img src="https://img.shields.io/badge/Cloud-475569?style=flat-square" alt="Cloud Infrastructure"/>
 </p>
 
-**I build AI products people can actually use.**
+**AI Engineer · Solution Design**
 
-Product engineering across **AI agents, healthcare, fintech, and interactive systems**. I care about the entire experience: the difficult engineering underneath and the simple interface on top.
+I design and build AI systems from problem definition through working product—connecting models, agents, computer vision, interfaces, and infrastructure into useful experiences. My work spans healthcare, financial technology, and interactive creative tools.
 
 **2× hackathon winner** &nbsp;·&nbsp; **4 featured builds** &nbsp;·&nbsp; **Open-source builder**
 
