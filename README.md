@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/profile-banner.svg" alt="AI Engineer — Solution Design" width="100%"/></p>
+<p align="center"><img src="assets/profile-banner.svg" alt="AI Engineer — Solution Architect" width="100%"/></p>
 
 <p align="center">
 <a href="#01--moneyfinder">🏆 MoneyFinder</a> &nbsp;·&nbsp;
