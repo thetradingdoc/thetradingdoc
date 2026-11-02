@@ -1,3 +1,26 @@
+<p align="center"><img src="assets/profile-banner.svg" alt="Jeremiah Richard — AI product engineer" width="100%"/></p>
+
+<p align="center">
+<a href="#01--moneyfinder">🏆 MoneyFinder</a> &nbsp;·&nbsp;
+<a href="#02--somo">🏆 Somo</a> &nbsp;·&nbsp;
+<a href="#03--rehabninja">🎮 RehabNinja</a> &nbsp;·&nbsp;
+<a href="#04--comfy-race">🏎️ Comfy Race</a>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white" alt="React"/>
+<img src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Computer_Vision-7C3AED?style=flat-square" alt="Computer Vision"/>
+<img src="https://img.shields.io/badge/AI_Agents-0F766E?style=flat-square" alt="AI Agents"/>
+<img src="https://img.shields.io/badge/LLM_Tools-2563EB?style=flat-square" alt="LLM Tool Use"/>
+<img src="https://img.shields.io/badge/ComfyUI-E11D48?style=flat-square" alt="ComfyUI"/>
+<img src="https://img.shields.io/badge/Cloud-475569?style=flat-square" alt="Cloud Infrastructure"/>
+</p>
+
 **I build AI products people can actually use.**
 
 Product engineering across **AI agents, healthcare, fintech, and interactive systems**. I care about the entire experience: the difficult engineering underneath and the simple interface on top.
@@ -131,8 +154,6 @@ flowchart LR
 ## How I build
 
 I work across the product stack, from an idea and user journey to APIs, model orchestration, real-time interaction, deployment, and testing.
-
-`Python` · `TypeScript` · `JavaScript` · `React / Next.js` · `Node.js` · `Computer Vision` · `AI Agents` · `LLM Tool Use` · `ComfyUI` · `Cloud Infrastructure`
 
 <details>
 <summary><b>More open-source work</b></summary>
