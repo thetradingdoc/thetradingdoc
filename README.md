@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/profile-banner.svg" alt="Jeremiah Richard — AI product engineer" width="100%"/></p>
+<p align="center"><img src="assets/profile-banner.svg" alt=" Otis Richard Jr MD — AI product engineer" width="100%"/></p>
 
 <p align="center">
 <a href="#01--moneyfinder">🏆 MoneyFinder</a> &nbsp;·&nbsp;
