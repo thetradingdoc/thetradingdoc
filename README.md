@@ -1,5 +1,3 @@
-# Jeremiah Richard
-
 **I build AI products people can actually use.**
 
 Product engineering across **AI agents, healthcare, fintech, and interactive systems**. I care about the entire experience: the difficult engineering underneath and the simple interface on top.
