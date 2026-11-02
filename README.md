@@ -21,7 +21,7 @@
 <img src="https://img.shields.io/badge/Cloud-475569?style=flat-square" alt="Cloud Infrastructure"/>
 </p>
 
-**AI Engineer · Solution Design**
+**AI Engineer · Solution Architect**
 
 I design and build AI systems from problem definition through working product—connecting models, agents, computer vision, interfaces, and infrastructure into useful experiences. My work spans healthcare, financial technology, and interactive creative tools.
 
