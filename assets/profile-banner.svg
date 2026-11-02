@@ -1,23 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="336" viewBox="0 0 1280 336" role="img" aria-labelledby="t d">
-<title id="t">Jeremiah Richard — AI product engineer</title><desc id="d">Editorial portfolio header with vivid coral, cobalt, violet and lime geometric artwork</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="430" viewBox="0 0 1560 430" role="img" aria-labelledby="title description">
+<title id="title">AI Engineer — Solution Design</title>
+<desc id="description">Editorial AI engineering header with warm copper, aubergine, indigo and a luminous orbital accent</desc>
 <defs>
-<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11152B"/><stop offset=".55" stop-color="#19204A"/><stop offset="1" stop-color="#102E47"/></linearGradient>
-<linearGradient id="v" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FE7C6B"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#327AFF"/></linearGradient>
-<radialGradient id="c"><stop stop-color="#A855F7" stop-opacity=".55"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/></radialGradient>
+  <linearGradient id="background" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1560" y2="400">
+    <stop stop-color="#38231e"/><stop offset=".28" stop-color="#773d48"/><stop offset=".63" stop-color="#44183f"/><stop offset="1" stop-color="#0d173c"/>
+  </linearGradient>
+  <radialGradient id="warm" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="translate(296 64) rotate(38) scale(720 390)">
+    <stop stop-color="#e2a363" stop-opacity=".58"/><stop offset="1" stop-color="#e2a363" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="violet" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="translate(1370 292) rotate(120) scale(640 590)">
+    <stop stop-color="#663ad4" stop-opacity=".73"/><stop offset="1" stop-color="#663ad4" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="orbit" gradientUnits="userSpaceOnUse" x1="905" y1="400" x2="1518" y2="154">
+    <stop stop-color="#f6ad6c"/><stop offset=".42" stop-color="#ff95ab"/><stop offset="1" stop-color="#a08cff"/>
+  </linearGradient>
+  <filter id="soft" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="14"/></filter>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".55" numOctaves="3" seed="7" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer>
+  </filter>
 </defs>
-<rect width="1280" height="336" rx="26" fill="url(#g)"/>
-<path d="M0 304H1280" stroke="#90A0C8" stroke-opacity=".15"/><path d="M42 0V336" stroke="#90A0C8" stroke-opacity=".10"/>
-<circle cx="1010" cy="160" r="205" fill="url(#c)"/>
-<g opacity=".85"><circle cx="1044" cy="163" r="126" fill="none" stroke="url(#v)" stroke-width="38"/><circle cx="1044" cy="163" r="68" fill="#161A3A" stroke="#F1F5F9" stroke-opacity=".35" stroke-width="1.5"/><circle cx="1044" cy="163" r="27" fill="#BEF264"/></g>
-<g transform="rotate(-22 1044 163)"><rect x="903" y="131" width="282" height="64" rx="32" fill="#FF7B72"/><rect x="960" y="132" width="168" height="63" rx="31" fill="#303C94"/></g>
-<path d="M898 60L939 38L980 60L939 82Z" fill="#BEF264"/><path d="M1172 254L1214 234L1254 254L1214 275Z" fill="#7DD3FC"/>
-<circle cx="856" cy="251" r="8" fill="#FF7B72"/><circle cx="1200" cy="75" r="6" fill="#BEF264"/><circle cx="1150" cy="42" r="4" fill="#D8B4FE"/>
-<rect x="58" y="39" width="270" height="40" rx="11" fill="#27314E" stroke="#7884BD" stroke-opacity=".45"/>
-<text x="76" y="65" fill="#BEF264" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="1.7">AI  /  HEALTHCARE  /  FINTECH</text>
-<text x="56" y="157" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="57" font-weight="800">Jeremiah Richard</text>
-<text x="58" y="211" fill="#A5B4FC" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700">Building AI products people can actually use.</text>
-<text x="58" y="251" fill="#D0DAEC" font-family="Arial,Helvetica,sans-serif" font-size="19">Agents · interactive systems · computer vision · product engineering</text>
-<g font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">
-<rect x="58" y="279" width="189" height="37" rx="10" fill="#BEF264"/><text x="76" y="303" fill="#15212C">2× HACKATHON WINS</text>
-<rect x="261" y="279" width="174" height="37" rx="10" fill="#324777" stroke="#7B92CE" stroke-opacity=".6"/><text x="280" y="303" fill="#F2F6FE">4 FEATURED BUILDS</text>
-</g></svg>
+<rect width="1560" height="430" rx="22" fill="url(#background)"/>
+<rect width="1560" height="430" rx="22" fill="url(#warm)"/>
+<rect width="1560" height="430" rx="22" fill="url(#violet)"/>
+<path d="M1050 430 C1155 286 1346 195 1565 173 L1565 430Z" fill="#151d60" opacity=".65"/>
+<path d="M1010 440 C1161 314 1370 181 1580 166" fill="none" stroke="#ff9a87" stroke-width="26" opacity=".46" filter="url(#soft)"/>
+<path d="M1010 440 C1161 314 1370 181 1580 166" fill="none" stroke="url(#orbit)" stroke-width="4"/>
+<path d="M1352 430 C1410 363 1480 328 1565 319" fill="none" stroke="#bca4ff" stroke-width="2" opacity=".72"/>
+<rect x="84" y="63" width="293" height="47" rx="23" fill="#261d2c" fill-opacity=".36" stroke="#e5bdad" stroke-opacity=".75" stroke-width="1.2"/>
+<text x="114" y="94" fill="#fff0dc" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" letter-spacing="5">SOLUTION DESIGN</text>
+<text x="79" y="259" fill="#fff7ef" font-family="Georgia,Times New Roman,serif" font-size="141" font-weight="400">AI <tspan font-style="italic">Engineer</tspan></text>
+<text x="91" y="331" fill="#f6e4e6" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="400">Turning complex AI ideas into useful, working products.</text>
+<text x="93" y="377" fill="#d5b9c5" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="2">AGENTS  /  COMPUTER VISION  /  INTERACTIVE SYSTEMS</text>
+<rect width="1560" height="430" rx="22" fill="#ffffff" opacity=".14" filter="url(#grain)"/>
+</svg>
