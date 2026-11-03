@@ -25,7 +25,7 @@
 
 I design and build AI systems from problem definition through working product—connecting models, agents, computer vision, interfaces, and infrastructure into useful experiences. My work spans healthcare, financial technology, and interactive creative tools.
 
-**2× hackathon winner** &nbsp;·&nbsp; **4 featured builds** &nbsp;·&nbsp; **Open-source builder**
+**4× hackathon winner** &nbsp;·&nbsp; **4 featured builds** &nbsp;·&nbsp; **Open-source builder**
 
 [Selected work](#selected-work) · [Currently building](#04--comfy-race) · [How I build](#how-i-build)
 
