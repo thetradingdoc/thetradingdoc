@@ -1,6 +1,7 @@
 <p align="center"><img src="assets/profile-banner.svg" alt="AI Engineer — Solution Architect" width="100%"/></p>
 
 <p align="center">
+<a href="#current-focus--traade">📈 TRAADE</a> &nbsp;·&nbsp;
 <a href="#01--moneyfinder">🏆 MoneyFinder</a> &nbsp;·&nbsp;
 <a href="#02--somo">🏆 Somo</a> &nbsp;·&nbsp;
 <a href="#03--rehabninja">🎮 RehabNinja</a> &nbsp;·&nbsp;
@@ -23,11 +24,39 @@
 
 **AI Engineer · Solution Architect**
 
-I design and build AI systems from problem definition through working product—connecting models, agents, computer vision, interfaces, and infrastructure into useful experiences. My work spans healthcare, financial technology, and interactive creative tools.
+I design and build AI systems from problem definition through working product—connecting models, agents, computer vision, interfaces, and infrastructure into useful experiences. My current focus is **TRAADE**, a stocks and sports-event research platform; my other work spans healthcare, financial opportunity discovery, and interactive computer vision.
 
-**4× hackathon winner** &nbsp;·&nbsp; **4 featured builds** &nbsp;·&nbsp; **Open-source builder**
+**4× hackathon winner** &nbsp;·&nbsp; **5 highlighted projects** &nbsp;·&nbsp; **Open-source builder**
 
-[Selected work](#selected-work) · [Currently building](#04--comfy-race) · [How I build](#how-i-build)
+[Current focus](#current-focus--traade) · [Selected work](#selected-work) · [How I build](#how-i-build)
+
+---
+
+## Current focus · TRAADE
+
+**AI-powered research for stocks and sports event markets. One platform, two focused experiences.**
+
+TRAADE brings company research and sports-event analysis into a shared product experience without mixing their trading infrastructure. The core question is the same in both lanes: **Can we turn evidence into a better decision—while knowing when not to act?**
+
+[**Explore TRAADE ↗**](https://trytraade.com) &nbsp;·&nbsp; [**View the paper-rails dashboard ↗**](https://trytraade.com/paper-rails)
+
+<details>
+<summary><b>What I'm building — product, research, and risk</b></summary>
+<br/>
+
+- **Stocks:** company search, an AI research guide, SEC-filing-driven research, and an Alpaca **paper-trading** evaluation rail.
+- **Sports Events:** a UFC-first event-card Trade Room, bout-level research, market observation, and venue-scoped **paper** positions. NBA is the intended next sport, followed by other sports as data quality and demand justify expansion.
+- **Quantitative research:** opponent-adjusted UFC features, an experimental Markov fight simulator inspired by academic MMA forecasting research, and risk-constrained Kelly position-sizing research. These are **offline prototypes**, not proven trading strategies.
+- **Evidence and controls:** time-stamped market observations, source provenance, conservative eligibility gates, separate paper ledgers, settlement receipts, and explicit `NO_TRADE` decisions.
+- **Architecture:** JavaScript / Node.js · React · Cloudflare Workers, D1 and R2 · Alpaca paper · Polymarket US paper observations · Telegram event reporting.
+
+**Current boundary:** paper/research only. No live sports wagers or real-money transfers; Polymarket Global/Polygon access is read-only. The UFC video/spatial-analysis work is experimental and not an approved forecast input. Reported model accuracy or investment returns have **not** been independently established.
+
+**Research influences:** [MMA Markov-chain forecasting](https://doi.org/10.1016/j.ijforecast.2022.01.007) and [Risk-Constrained Kelly Gambling](https://web.stanford.edu/~boyd/papers/kelly.html). Implementations are research-inspired, not validated reproductions.
+
+*The TRAADE monorepo is private. The product links above are public entry points; research and paper features may require authorized access.*
+
+</details>
 
 ---
 
