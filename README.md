@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/profile-banner.svg" alt="AI Engineer — Solution Architect" width="100%"/></p>
 
 <p align="center">
-<a href="#current-focus--traade">📈 TRAADE</a> &nbsp;·&nbsp;
+<a href="#featured-public-build--trade--fightroom">🥊 FightRoom</a> &nbsp;·&nbsp;
 <a href="#01--moneyfinder">🏆 MoneyFinder</a> &nbsp;·&nbsp;
 <a href="#02--somo">🏆 Somo</a> &nbsp;·&nbsp;
 <a href="#03--rehabninja">🎮 RehabNinja</a> &nbsp;·&nbsp;
@@ -24,37 +24,36 @@
 
 **AI Engineer · Solution Architect**
 
-I design and build AI systems from problem definition through working product—connecting models, agents, computer vision, interfaces, and infrastructure into useful experiences. My current focus is **TRAADE**, a stocks and sports-event research platform; my other work spans healthcare, financial opportunity discovery, and interactive computer vision.
+I design and build AI systems from problem definition through working product—connecting models, agents, computer vision, interfaces, and infrastructure into useful experiences. My work spans healthcare, financial technology, source-grounded AI agents, and interactive computer vision. **FightRoom** is a recent public example of how I combine research agents, deterministic guardrails, and reproducible evidence.
 
 **4× hackathon winner** &nbsp;·&nbsp; **5 highlighted projects** &nbsp;·&nbsp; **Open-source builder**
 
-[Current focus](#current-focus--traade) · [Selected work](#selected-work) · [How I build](#how-i-build)
+[Featured public build](#featured-public-build--trade--fightroom) · [Selected work](#selected-work) · [How I build](#how-i-build)
 
 ---
 
-## Current focus · TRAADE
+## Featured public build · Trade — FightRoom
 
-**AI-powered research for stocks and sports event markets. One platform, two focused experiences.**
+**An open-source, evidence-first UFC research and paper-decision demo.**
 
-TRAADE brings company research and sports-event analysis into a shared product experience without mixing their trading infrastructure. The core question is the same in both lanes: **Can we turn evidence into a better decision—while knowing when not to act?**
+FightRoom brings together fighter and card information, sportsbook odds, prediction-market observations, and AI-assisted research. The challenge: can agents make fast-changing fight-night information easier to investigate **without overriding verifiable rules about identity, price, fees, and risk?**
 
-[**Explore TRAADE ↗**](https://trytraade.com) &nbsp;·&nbsp; [**View the paper-rails dashboard ↗**](https://trytraade.com/paper-rails)
+[**Explore the public repository ↗**](https://github.com/thetradingdoc/trade-fightroom) &nbsp;·&nbsp; [**See the evidence and limitations ↗**](https://github.com/thetradingdoc/trade-fightroom/blob/main/docs/EVIDENCE.md)
+
+<a href="https://github.com/thetradingdoc/trade-fightroom"><img src="https://raw.githubusercontent.com/thetradingdoc/trade-fightroom/main/docs/images/fightroom-pipeline.png" alt="Trade FightRoom architecture diagram — source collection, verification, AI research, deterministic paper decisions and reporting" width="720"/></a>
 
 <details>
-<summary><b>What I'm building — product, research, and risk</b></summary>
+<summary><b>How FightRoom works — explore the engineering</b></summary>
 <br/>
 
-- **Stocks:** company search, an AI research guide, SEC-filing-driven research, and an Alpaca **paper-trading** evaluation rail.
-- **Sports Events:** a UFC-first event-card Trade Room, bout-level research, market observation, and venue-scoped **paper** positions. NBA is the intended next sport, followed by other sports as data quality and demand justify expansion.
-- **Quantitative research:** opponent-adjusted UFC features, an experimental Markov fight simulator inspired by academic MMA forecasting research, and risk-constrained Kelly position-sizing research. These are **offline prototypes**, not proven trading strategies.
-- **Evidence and controls:** time-stamped market observations, source provenance, conservative eligibility gates, separate paper ledgers, settlement receipts, and explicit `NO_TRADE` decisions.
-- **Architecture:** JavaScript / Node.js · React · Cloudflare Workers, D1 and R2 · Alpaca paper · Polymarket US paper observations · Telegram event reporting.
+- **Verify before reasoning:** reconcile card changes, fighter identities, market matching and source receipts.
+- **Use AI where it helps:** Superlinked extracts names and traceable source spans; Cognee provides evidence-backed memory retrieval; Tinfoil supports attested, confidential research inference.
+- **Keep decisions deterministic:** explicit price, fee and risk checks can produce `BLOCKED` or `NO_TRADE` rather than force a position.
+- **Make claims reproducible:** public sanitized artifacts and offline tests reproduce a November 7, 2026 paper evaluation with **zero qualifying trades**. This is an honest no-trade result, not evidence of trading profit.
 
-**Current boundary:** paper/research only. No live sports wagers or real-money transfers; Polymarket Global/Polygon access is read-only. The UFC video/spatial-analysis work is experimental and not an approved forecast input. Reported model accuracy or investment returns have **not** been independently established.
+**Stack and methods:** JavaScript / Node.js · agentic research · source provenance · Superlinked · Cognee · Tinfoil · offline evidence verification.
 
-**Research influences:** [MMA Markov-chain forecasting](https://doi.org/10.1016/j.ijforecast.2022.01.007) and [Risk-Constrained Kelly Gambling](https://web.stanford.edu/~boyd/papers/kelly.html). Implementations are research-inspired, not validated reproductions.
-
-*The TRAADE monorepo is private. The product links above are public entry points; research and paper features may require authorized access.*
+*The public repository is a clean-room research demo, not a complete live trading platform. The illustration shows its documented workflow design, not a screenshot of a deployed dashboard or a proven predictive model.*
 
 </details>
 
